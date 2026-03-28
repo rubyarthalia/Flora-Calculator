@@ -73,7 +73,7 @@ Designed with a modern UI and a nature-inspired theme (🌸 / 🍃), FloraCalc c
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/flora-calc.git
+git clone https://github.com/rubyarthalia/Flora-Calculator.git
 ```
 
 2. Open the project folder:

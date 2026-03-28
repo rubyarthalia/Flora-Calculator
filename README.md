@@ -62,8 +62,7 @@ Designed with a modern UI and a nature-inspired theme (🌸 / 🍃), FloraCalc c
 ├── index.html
 ├── style.css
 ├── script.js
-└── assets/
-    └── images (optional)
+└── flower.jpg
 ```
 
 ---

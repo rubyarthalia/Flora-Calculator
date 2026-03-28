@@ -1,115 +1,98 @@
-# 🌸 Flora Calculator — Interactive Web Calculator
+# 🌸 Flora Calculator
 
-A clean, responsive, and keyboard-friendly calculator built with **HTML, CSS, and JavaScript**.
-Designed with a modern UI and a nature-inspired theme (🌸 / 🍃), FloraCalc combines functionality with visual polish.
+A modern, responsive web calculator with a clean UI, keyboard support, and a nature-inspired theme (🌸 / 🍃).
+
+---
+
+## 🌐 Live Demo
+
+👉 https://rubyarthalia.github.io/Flora-Calculator
 
 ---
 
 ## ✨ Features
 
-* 🧮 Basic arithmetic operations (`+ − × ÷`)
-* ⌨️ **Keyboard support** for fast input
-* 🌓 **Theme toggle** (light/dark) with custom icons
-* 🧠 Smart input behavior (resets after `=`, continues with operators)
-* 🔢 Decimal handling & percentage support
-* ⏪ Backspace and clear functionality
-* 📜 Calculation history display
-* 📱 Responsive layout
+* Basic arithmetic operations (`+ − × ÷`)
+* Keyboard input support
+* Light/Dark mode toggle with custom icons
+* Smart input behavior (reset after `=`, continue with operators)
+* Decimal and percentage handling
+* Backspace and clear functions
+* Calculation history display
+* Responsive layout
 
 ---
 
 ## 🎮 Controls
 
-### Mouse
-
-* Click buttons to input numbers and operations
-
 ### Keyboard
 
-| Key         | Action            |
-| ----------- | ----------------- |
-| `0–9`       | Numbers           |
-| `+ - * /`   | Operators         |
-| `Enter`     | Equals (`=`)      |
-| `Backspace` | Delete last digit |
-| `Escape`    | Clear (AC)        |
-| `.`         | Decimal           |
-
----
-
-## 🎨 UI Highlights
-
-* Minimalist calculator layout inspired by modern mobile calculators
-* Bottom-aligned display (like iPhone-style UX)
-* Smooth theme switching with icon transitions
-* Custom color palette with soft gradients
-
----
-
-## 🛠️ Tech Stack
-
-* **HTML5**
-* **CSS3** (Flexbox, gradients, transitions)
-* **Vanilla JavaScript** (DOM manipulation, event handling)
+| Key         | Action       |
+| ----------- | ------------ |
+| `0–9`       | Numbers      |
+| `+ - * /`   | Operators    |
+| `Enter`     | Equals (`=`) |
+| `Backspace` | Delete       |
+| `Escape`    | Clear        |
+| `.`         | Decimal      |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-/project-root
+Flora-Calculator/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-└── flower.jpg
+├── flower.jpg (optional background image)
+└── README.md
 ```
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run Locally
 
 1. Clone the repository:
 
-```bash
+```
 git clone https://github.com/rubyarthalia/Flora-Calculator.git
 ```
 
-2. Open the project folder:
+2. Open the folder:
 
-```bash
-cd flora-calc
+```
+cd Flora-Calculator
 ```
 
 3. Open `index.html` in your browser
-
----
-
-## 💡 Future Improvements
-
-* Advanced expression parsing (replace `eval`)
-* Multi-step calculation history
-* Dynamic font scaling for long numbers
-* Sound effects / button feedback
-* Mobile gesture support
+   (double-click or right-click → Open with browser)
 
 ---
 
 ## ⚠️ Notes
 
-* Current calculation uses `eval()` for simplicity
-* Not suitable for complex or production-level math parsing
-* Designed primarily for learning and UI/UX practice
+* Uses `eval()` for calculations (simple but not for production use)
+* Works fully offline (no backend required)
+
+---
+
+## 💡 Future Improvements
+
+* Replace `eval()` with a proper parser
+* Add multi-step history
+* Dynamic font scaling for long numbers
+* Button animations / sound feedback
 
 ---
 
 ## 👤 Author
 
-Ruby Arthalia Golden
-Built as a front-end project to practice UI design, JavaScript logic, and user interaction.
+Ruby Arthalia
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a star ⭐ and feel free to fork or improve it!
+If you like this project, give it a star ⭐
